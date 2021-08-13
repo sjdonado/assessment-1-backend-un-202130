@@ -1,0 +1,12 @@
+name: "Mi fibonnacci"
+description: "Mi serie de fibonacci para resolver primeras competencias"
+author: "encaraballo@uninorte.edu.co"
+
+inputs:
+  N_INPUT:
+    description: "Variable de entrada"
+    required: true
+    
+runs:
+  using: "docker"
+  image: "Dockerfile"
