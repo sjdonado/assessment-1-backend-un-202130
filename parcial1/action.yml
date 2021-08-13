@@ -1,0 +1,14 @@
+name: "Parcial #1"
+description: "Primer parcial BackEnd"
+author: "ravelandia@uninorte.edu.co"
+
+inputs:
+  N_INDEX:
+    description: "Numero 9"
+    required: true
+    default: "World"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
