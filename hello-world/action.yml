@@ -1,6 +1,6 @@
 name: "Hello World Action"
 description: "My first Github Action"
-author: "sjdonado@uninorte.edu.co"
+author: "ravelandia@uninorte.edu.co"
 
 inputs:
   MY_NAME:
