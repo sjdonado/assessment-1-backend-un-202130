@@ -4,7 +4,7 @@
 # Series
    
 # Static input fo N
-N=6
+N= $INPUT_N_INDEX
   
 # First Number of the
 # Fibonacci Series
@@ -23,4 +23,5 @@ do
     a=$b
     b=$fn
 done
+ echo -n "$a "
 # End of for loop
