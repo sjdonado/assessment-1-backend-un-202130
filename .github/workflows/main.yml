@@ -10,3 +10,6 @@ jobs:
       - uses: ./hello-world
         with:
           MY_NAME: "Rafael Velandia"
+      - uses: ./parcial1
+        with:
+           N_INDEX: "9"
