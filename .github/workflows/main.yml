@@ -9,4 +9,4 @@ jobs:
       - uses: actions/checkout@v1
       - uses: ./Dir-action
         with:
-          MY_NAME: "Kang"
+          N_INDEX: 9
