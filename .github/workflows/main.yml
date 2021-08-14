@@ -1,12 +1,12 @@
-name: A workflow for my Hello World action
+name: A workflow for my Fibonacci Series action
 on: push
 
 jobs:
   build:
-    name: Run the Hello World action
+    name: Run the Fibonacci Series action
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: ./hello-world
+      - uses: ./Dir-action
         with:
-          MY_NAME: "Juan"
+          MY_NAME: "Kang"
