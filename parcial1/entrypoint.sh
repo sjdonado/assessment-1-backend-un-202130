@@ -4,7 +4,7 @@
 # Series
    
 # Static input fo N
-echo "esto es $INPUT_MY_NAME y el input es $INPUT_N_INDEX "
+
 N= $INPUT_N_INDEX
   
 # First Number of the
@@ -24,5 +24,5 @@ do
     a=$b
     b=$fn
 done
- echo -n "$a "
+ echo "Respuesta $a "
 # End of for loop
