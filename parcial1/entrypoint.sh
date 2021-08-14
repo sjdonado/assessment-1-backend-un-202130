@@ -1,28 +1,27 @@
 #!/bin/bash
-
+# rsync using variables
 # Program for Fibonacci
 # Series
    
 # Static input fo N
 
-N= $INPUT_N_INDEX
+
+
+N=$INPUT_N_INDEX 
   
 # First Number of the
 # Fibonacci Series
-a=0
+a=1
   
 # Second Number of the
 # Fibonacci Series
 b=1 
    
-echo "The Fibonacci series is : "
    
-for (( i=0; i<N; i++ ))
+for (( i=1; i<N; i++ ))
 do
-    echo -n "$a "
     fn=$((a + b))
     a=$b
     b=$fn
 done
- echo "Respuesta $a "
-# End of for loop
+echo -n "La respuesta es: $a "
