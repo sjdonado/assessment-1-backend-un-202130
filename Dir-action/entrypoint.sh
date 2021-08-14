@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "Mi nombre es: $N_INDEX"
+echo "Mi nombre es: $INPUT_N_INDEX"
