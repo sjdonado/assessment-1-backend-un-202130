@@ -3,7 +3,7 @@ description: "My first Github Action"
 author: "leik@uninorte.edu.co"
 
 inputs:
-  MY_NAME:
+  N_INDEX:
     description: "A number"
     required: true
    #default: "World"
