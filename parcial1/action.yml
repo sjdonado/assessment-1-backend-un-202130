@@ -6,7 +6,7 @@ inputs:
   N_INDEX:
     description: "Numero 9"
     required: true
-   default: "World"
+    default: 
 
 runs:
   using: "docker"
