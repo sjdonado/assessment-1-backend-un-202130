@@ -1,5 +1,5 @@
-name: A workflow for my Hello World action
-on: push
+name: A workflow for actions in github
+on: [ push, pull_request ]
 
 jobs:
   build:
@@ -10,3 +10,14 @@ jobs:
       - uses: ./hello-world
         with:
           MY_NAME: "Juan"
+
+  fib:
+    name: Run fibonacci sequence
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ./fibonacci
+        with:
+          N_INDEX: 9
+
+

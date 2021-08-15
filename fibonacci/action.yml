@@ -1,0 +1,11 @@
+name: "Fibonacci action"
+description: "Fibonacci's sequence action"
+author: "rcorreramercado@uninorte.edu.co"
+
+inputs:
+  N_INDEX:
+    description: "Execute fibonacci's sequence given an index"
+    required: true
+runs:
+  using: "docker"
+  image: "Dockerfile"
