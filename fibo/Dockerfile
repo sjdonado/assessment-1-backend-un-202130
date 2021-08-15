@@ -5,4 +5,4 @@ FROM python:3
 ADD fibonacci.py /
 
 # Code file to execute when the docker container starts up (`entrypoint.sh`)
-CMD [ "python", "./fibonacci.py"]
+CMD [ "python", "fibo/fibonacci.py"]
