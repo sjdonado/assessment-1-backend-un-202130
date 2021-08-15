@@ -3,7 +3,7 @@ description: "fibonnaci  Action"
 author: "jmcamelo@uninorte.edu.co"
 
 inputs:
-    MY_num:
+    N_NUMBER:
         description: "fibonnaci action"
         required: true
 runs:
