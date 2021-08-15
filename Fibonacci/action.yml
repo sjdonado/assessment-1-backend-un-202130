@@ -1,0 +1,11 @@
+name: "Fibonacci Action"
+description: "Action implement Fibonacci"
+author: "rmanuelj@uninorte.edu.co"
+
+inputs:
+  N_SERIE:
+    description: "Fibonacci 9"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
