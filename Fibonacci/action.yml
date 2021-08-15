@@ -1,0 +1,12 @@
+name: "My Action"
+description: "Parcial 1 - Backend"
+author: "dmezae@uninorte.edu.co"
+
+inputs:
+  N_INDEX:
+    description: "n posición de la serie de Fibonacci"
+    required: true
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
