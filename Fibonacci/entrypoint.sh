@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "Hello world $INPUT_MY_NAME"
+echo $INPUT_MY_NAME
