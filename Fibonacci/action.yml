@@ -5,6 +5,7 @@ author: "rmanuelj@uninorte.edu.co"
 inputs:
   N_SERIE:
     description: "Fibonacci 9"
+    required: true
 
 runs:
   using: "docker"
