@@ -3,11 +3,11 @@ FROM python:alpine3.14
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 ADD entrypoint.sh /entrypoint.sh
-ADD fib.py /fib.py
 
 # Set execution permissions
 RUN chmod +x /entrypoint.sh
-RUN chmod +x /fib.py
+
+COPY fib.py /
 
 # Code file to execute when the docker container starts up (`entrypoint.sh`)
-ENTRYPOINT ["/fib.py"]
+ENTRYPOINT ["/entrypoint.sh"]
