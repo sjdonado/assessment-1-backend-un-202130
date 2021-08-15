@@ -1,5 +1,5 @@
 #!/bin/bash
-cont=0
+cont=1
 n=$INPUT_N_INDEX
 a=1
 b=1
