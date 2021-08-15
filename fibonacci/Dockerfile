@@ -2,9 +2,8 @@
 FROM python:alpine3.14
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
-ADD entrypoint.sh /entrypoint.sh
-
-COPY fib.py /app
+COPY entrypoint.sh /entrypoint.sh
+COPY fib.py /app/
 
 # Set execution permissions
 RUN chmod +x /entrypoint.sh
