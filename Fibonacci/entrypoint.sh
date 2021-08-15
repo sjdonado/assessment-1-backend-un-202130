@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo $INPUT_MY_NAME
+echo $INPUT_N_INDEX
