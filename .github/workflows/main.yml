@@ -3,10 +3,10 @@ on: push
 
 jobs:
   build:
-    name: Run the Hello World action
+    name: Run the World action
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: ./hello-world
+      - uses: ./fibo
         with:
-          MY_NAME: "Juan"
+          N_index: "9"

@@ -1,0 +1,12 @@
+name: "Fibonacci Sequence"
+description: "Github Action"
+author: "jdlagares@uninorte.edu.co"
+
+inputs:
+  N_index:
+    description: "n-valor de la serie de fibonacci"
+    required: true
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
