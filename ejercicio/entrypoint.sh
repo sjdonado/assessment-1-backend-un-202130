@@ -4,7 +4,7 @@
 # Series
 
 # Static input fo N
-N=$IMPUT_N_INDEX
+N=$INPUT_N_INDEX 
 
 # First Number of the
 # Fibonacci Series
