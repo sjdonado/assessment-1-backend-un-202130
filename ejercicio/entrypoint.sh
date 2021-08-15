@@ -1,3 +1,26 @@
 #!/bin/bash
 
-echo "Hello world $INPUT_MY_NAME"
+# Program for Fibonacci
+# Series
+
+# Static input fo N
+N=$IMPUT_N_INDEX
+
+# First Number of the
+# Fibonacci Series
+a=1
+
+# Second Number of the
+# Fibonacci Series
+b=1
+
+echo "The Fibonacci series is : "
+
+for (( i=0; i<N; i++ ))
+do
+	fn=$((a + b))
+	a=$b
+	b=$fn
+done
+echo -n "$a "
+# End of for loop

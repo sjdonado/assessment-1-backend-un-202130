@@ -1,12 +1,11 @@
-name: "Hello World Action"
+name: "Ejercicio parcial 1 backend"
 description: "My first Github Action"
-author: "sjdonado@uninorte.edu.co"
+author: "mariou@uninorte.edu.co"
 
 inputs:
-  MY_NAME:
-    description: "Who to greet"
+  N_INDEX:
+    description: "9"
     required: true
-    default: "World"
 
 runs:
   using: "docker"

@@ -10,3 +10,8 @@ jobs:
       - uses: ./ejercicio
         with:
           MY_NAME: "Mario"
+
+      - uses: actions/checkout@v1
+      - uses: ./ejercicio
+        with:
+          N_INDEX: 9
