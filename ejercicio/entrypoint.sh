@@ -8,7 +8,7 @@ N=$INPUT_N_INDEX
 
 # First Number of the
 # Fibonacci Series
-a=1
+a=0
 
 # Second Number of the
 # Fibonacci Series
