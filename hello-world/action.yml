@@ -1,12 +1,11 @@
-name: "Hello World Action"
-description: "My first Github Action"
-author: "sjdonado@uninorte.edu.co"
+name: "Fibonacci Action"
+description: "print the value of Fibonacci sequence in an specific position"
+author: "daporto@uninorte.edu.co"
 
 inputs:
-  MY_NAME:
-    description: "Who to greet"
+  N_INDEX:
+    description: "Fibonacci sequence input"
     required: true
-    default: "World"
 
 runs:
   using: "docker"
