@@ -5,7 +5,7 @@ author: "jmcamelo@uninorte.edu.co"
 inputs:
     MY_num:
         description: "fibonnaci action"
-
-    runs:
-        using: "docker"
-        image: "Dockerfile"
+        required: true
+runs:
+    using: "docker"
+    image: "Dockerfile"
