@@ -3,7 +3,7 @@ description: "Github Action"
 author: "manotasja@uninorte.edu.co"
 
 inputs:
-  N_index:
+  N_INDEX:
     description: "Calculate the nth value of the Fibonacci series"
     required: true
 
