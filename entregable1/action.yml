@@ -1,0 +1,12 @@
+name: "Fib action"
+description: "Fibonacci implements action"
+author: "jpuseche@uninorte.edu.co"
+
+inputs:
+  N_FIBONACCI:
+    description: "Fibonacci number 9"
+    required: true
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
