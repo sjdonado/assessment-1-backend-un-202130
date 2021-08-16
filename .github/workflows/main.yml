@@ -1,12 +1,12 @@
-name: A workflow for my Hello World action
+name: Fsequence (Fibonacci serie)
 on: push
 
 jobs:
   build:
-    name: Run the Hello World action
+    name: Running Fibonacci function
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: ./hello-world
+      - uses: ./Fsequence
         with:
-          MY_NAME: "Juan"
+          INPUT_FS: 9

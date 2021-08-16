@@ -1,0 +1,12 @@
+name: "Fsequence Running"
+description: "Apply the Fibonacci serie"
+author: "egtorres@uninorte.edu.co"
+
+inputs:
+  INPUT_FS:
+    description: "Fsequence (input_FS)"
+    required: true
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
