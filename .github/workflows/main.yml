@@ -6,7 +6,6 @@ jobs:
     name: Running Fibonacci function
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
       - uses: ./Fsequence
         with:
           INPUT_FS: 9
