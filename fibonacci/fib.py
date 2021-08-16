@@ -12,4 +12,4 @@ def FIB(n):
         return FIB(n-1)+FIB(n-2)
 
 
-print(FIB(sys.argv[1]))
+print(FIB(int(sys.argv[1])))
