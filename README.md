@@ -45,6 +45,3 @@ Once we have complete all the above instructions, we can push our assessment don
 ## Checking our results
 
 Go to actions on GitHub and see the execution done for our implementation.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
