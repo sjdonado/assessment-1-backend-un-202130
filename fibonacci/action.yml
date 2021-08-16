@@ -1,0 +1,12 @@
+name: "Fibonacci Action"
+description: "Calculate the nth term of the fibonacci sequence"
+author: "sdariza@uninorte.edu.co"
+
+inputs:
+  N_INDEX:
+    description: "the nth term to be computed of the fibonacci sequence"
+    required: true
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
