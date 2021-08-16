@@ -1,4 +1,4 @@
 #!/bin/bash
 
-echo "N_INDEX: " $N_index
+echo "N_INDEX: $N_index" 
 python ./fibonacci.py $N_index
