@@ -9,7 +9,6 @@ First of all, we compute it using dynamic programming. We implement the code off
 
 1) Fork the repository of [sjdonado](https://github.com/sjdonado/assessment-1-backend-un-202130)
 2) Clone the repository forked
-    - git clone [https://github.com/sjdonado/assessment-1-backend-un-202130.git](https://github.com/sjdonado/assessment-1-backend-un-202130.git)
 3) Go to file named by: **assessment-1-backend-un-202130**
 ## Actions
 1) Create a new file for actions and move on it:
