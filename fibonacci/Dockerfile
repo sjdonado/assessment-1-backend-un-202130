@@ -3,7 +3,7 @@ FROM debian:9.5-slim
 
 # Install python to run commands
 RUN apt-get update
-RUN apt-get install python
+RUN apt-get install --assume-yes python
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 ADD entrypoint.sh /entrypoint.sh
