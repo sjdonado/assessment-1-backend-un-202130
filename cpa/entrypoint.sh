@@ -1,7 +1,6 @@
 #!/usr/local/bin/zsh
 # Function f calculates n'th Fibonacci number
 # It uses ALGORITHM 2C: NON-RECURSIVE LOOP
-echo -n "Ingresar un número :"
 
 f () {
   N1=0
