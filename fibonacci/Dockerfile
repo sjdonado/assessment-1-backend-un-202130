@@ -1,9 +1,10 @@
 # Container image that runs your code
-FROM debian:9.5-slim
+FROM python:alpine3.14
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /
 COPY fib.py /app/
+ENV CGO_ENABLED=0
 
 # Set execution permissions
 RUN chmod +x /entrypoint.sh
