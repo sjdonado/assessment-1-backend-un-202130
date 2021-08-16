@@ -1,7 +1,7 @@
 #!/bin/bash 
 
 n=$INPUT_N_NUMBER
-a=1
+a=0
 b=1 
 for (( i=1; i<n; i++ ))
 do
@@ -10,4 +10,4 @@ do
     b=$fn
 done
 
-echo -n "La respuesta es: $a"
+echo -n "La respuesta es: $b"
