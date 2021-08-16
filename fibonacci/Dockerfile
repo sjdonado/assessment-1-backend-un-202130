@@ -2,7 +2,8 @@
 FROM python:3
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
-ADD entrypoint.sh /entrypoint.sh
+COPY entrypoint.sh /
+COPY . .
 
 # Set execution permissions
 RUN chmod +x /entrypoint.sh
