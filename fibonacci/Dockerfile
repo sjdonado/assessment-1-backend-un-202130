@@ -10,4 +10,4 @@ RUN chmod +x /fib.sh
 RUN chmod +x /app/fib.py
 
 # Code file to execute when the docker container starts up (`entrypoint.sh`)
-ENTRYPOINT [ "executable" ]
+ENTRYPOINT [ "/fib.sh" ]
