@@ -1,0 +1,12 @@
+  name: "Fibonacci Sequence"
+description: "Github Action"
+author: "manotasja@uninorte.edu.co"
+
+inputs:
+  N_index:
+    description: "Calculate the nth value of the Fibonacci series"
+    required: true
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
