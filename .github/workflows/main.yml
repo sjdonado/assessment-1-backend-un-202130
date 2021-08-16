@@ -9,4 +9,4 @@ jobs:
      - uses: actions/checkout@v1
      - uses: ./Fsequence
        with:
-       INPUT_FS: 9
+        N_FS: 9

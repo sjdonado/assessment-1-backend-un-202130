@@ -3,7 +3,7 @@ description: "Apply the Fibonacci serie"
 author: "egtorres@uninorte.edu.co"
 
 inputs:
-  INPUT_FS:
+  N_FS:
     description: "Fsequence (input_FS)"
     required: true
 
