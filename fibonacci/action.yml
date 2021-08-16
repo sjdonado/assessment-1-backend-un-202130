@@ -1,0 +1,12 @@
+name: "Fibonacci Series"
+description: "Github Actions"
+author: "ccandamil@uninorte.edu.co"
+
+inputs:
+  N_INDEX:
+    description: "Determine the Fibonacci value of a given number"
+    required: true
+
+runs:
+  using: "docker"
+  image: "Dockerfile"

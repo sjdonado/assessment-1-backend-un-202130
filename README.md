@@ -1,5 +1,4 @@
-# [Template] Hello World action
+# Fibonacci Series calculator
 
-Fork this project and modify the dir/files in order to complete your assignment.
-
-Good luck!
+Cristian Porto
+200110620
