@@ -18,7 +18,7 @@ f () {
 # Function f_print prints out n'th Fibonacci number
 f_print () {
   f $1
-  echo $1 "th Fibonacci number is" $?
+  echo $?
 }
 f_print $INPUT_N_INDEX
 
