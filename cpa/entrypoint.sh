@@ -19,6 +19,6 @@ f_print () {
   f $1
   echo $?
 }
-f_print $INPUT_N_INDEX
+f_print $@N_INDEX
 
 echo
