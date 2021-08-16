@@ -1,5 +1,5 @@
 name: A workflow for the fibonacci sequence
-on: push
+on: [push, pull_request]
 
 jobs:
   build:
