@@ -1,0 +1,13 @@
+name: "FS"
+description: "My first Github Action"
+author: "carriazoe@uninorte.edu.co"
+
+inputs:
+  N_INDEX:
+    description: "Numero:"
+    required: true
+    
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
