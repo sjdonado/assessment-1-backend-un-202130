@@ -1,4 +1,4 @@
-name: A workflow for my Hello World action
+name: A workflow for my fibonacci series
 on: push
 
 jobs:
@@ -9,4 +9,4 @@ jobs:
       - uses: actions/checkout@v1
       - uses: ./fibo
         with:
-          N_index: "9"
+          N_INDEX: 9

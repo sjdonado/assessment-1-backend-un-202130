@@ -3,7 +3,7 @@ description: "Github Action"
 author: "jdlagares@uninorte.edu.co"
 
 inputs:
-  N_index:
+  N_INDEX:
     description: "n-valor de la serie de fibonacci"
     required: true
 
