@@ -1,5 +1,5 @@
 name: A workflow for my fibonacci action (Assignment_1)
-on: push
+on: pull_request
 
 jobs:
   build:
