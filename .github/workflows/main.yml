@@ -6,7 +6,6 @@ jobs:
     name: Fibonacci action is running
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
       - uses: ./entragable1
         with:
           N_FIBONACCI: 9
