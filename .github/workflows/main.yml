@@ -6,7 +6,7 @@ jobs:
     name: Run fibonacci action   
     runs-on: ubuntu-latest   
     steps: 
-        - uses: actions/checkout@v1
-        - uses: ../fibonacci     
+      - uses: actions/checkout@v1
+      - uses: ./fibonacci     
         with:          
-           N_INDEX: 9
+          N_INDEX: 9
