@@ -8,5 +8,5 @@ def fibonacci(n):
     elif(n>=2):
         return fibonacci(n-1)+fibonacci(n-2) 
 
-print('N_Input = ', n)
+print('N_Index = ', n)
 print(fibonacci(n))
