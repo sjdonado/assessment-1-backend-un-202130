@@ -1,4 +1,5 @@
 #!/bin/bash 
+
 n=$INPUT_N_NUMBER
 a=1
 b=1 
