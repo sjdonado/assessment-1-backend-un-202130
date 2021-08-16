@@ -6,7 +6,7 @@ COPY entryPoint.sh /
 
 COPY fibonacci.py /fibonacci/
 
-RUN chmod +x /entrypoint.sh
+RUN chmod +x /entryPoint.sh
 
 # Code file to execute when the docker container starts up (`entrypoint.sh`)
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["/entryPoint.sh"]
