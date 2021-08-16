@@ -1,4 +1,6 @@
 #!/bin/bash
+
+
 c=2
 a=1
 b=1
@@ -9,10 +11,10 @@ echo "$a"
 echo "$b"
 while((c<n))
 do
-d=$((a+b))
-echo "$d"
-a=$b
-b=$d
-c=$((c+1))
+   d=$((a+b))
+   echo "$d"
+   a=$b
+   b=$d
+   c=$((c+1))
 done
   #Imprimir todo

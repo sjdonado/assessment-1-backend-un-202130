@@ -1,12 +1,12 @@
-name: "Action fibonacci"
+name: "action"
 description: "My first Github Action"
 author: "hidalgok@uninorte.edu.co"
 
 inputs:
-  N_INDEX:
-    description: "Fibonacci"
-    required: true
+     N_INDEX:
+         description: "Fibonacci"
+         required: true
 
 runs:
-  using: "docker"
-  image: "Dockerfile"
+    using: "docker"
+    image: "Dockerfile"
