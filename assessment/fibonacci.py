@@ -8,4 +8,5 @@ def fibonacci(n):
     elif n > 1:
         return fibonacci(n-1) + fibonacci(n-2)
 
+print(sys.argv)
 print('Output:', fibonacci(int(sys.argv[1])))
