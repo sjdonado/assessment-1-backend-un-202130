@@ -1,5 +1,4 @@
-# [Template] Hello World action
+# Assessment 1
 
-Fork this project and modify the dir/files in order to complete your assignment.
-
-Good luck!
+Alejandro Jesús Manotas Marmolejo
+200108289
