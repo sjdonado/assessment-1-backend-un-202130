@@ -1,0 +1,12 @@
+name: "Fibonacci Action"
+description: "An action to show fibonacci result from number given"
+author: "dolceya@uninorte.edu.co"
+
+inputs:
+  N_INDEX:
+    description: "Input number"
+    required: true
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
