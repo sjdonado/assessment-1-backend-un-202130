@@ -1,5 +1,5 @@
 # Container image that runs your code
-FROM node:lts-slim
+FROM node:14-slim
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 ADD entrypoint.sh /entrypoint.sh
