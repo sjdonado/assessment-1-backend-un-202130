@@ -4,7 +4,7 @@ author: "rjbarrios@uninorte.edu.co"
  
 inputs:
   N_INDEX:
-    description: "integer value"
+    description: "integer values"
     required: true
   
 runs:
