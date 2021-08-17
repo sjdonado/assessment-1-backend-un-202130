@@ -1,0 +1,12 @@
+name: "Fibonnaci Sequence"
+description: "Perform Fibonnaci algorithm in Python"
+author: "ivanestebanperez@hotmail.com"
+ 
+inputs:
+  N_INDEX:
+    description: "Try number for algorithm"
+    required: true
+ 
+runs:
+  using: "docker"
+  image: "Dockerfile"
