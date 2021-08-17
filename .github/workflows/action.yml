@@ -3,7 +3,7 @@ description: "Fibo series Action"
 author: "ronaldoc@uninorte.edu.co"
  
 inputs:
-  MY_NAME: "Juan"
+  MY_NAME: 
     description: "Show fibonacci"
     required: true
     default: "Ronald"
