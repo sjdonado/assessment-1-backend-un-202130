@@ -1,0 +1,12 @@
+name: "Fibonacci Action"
+description: "Action for executing fibonacci algorithm"
+author: "archila@uninorte.edu.co"
+
+inputs:
+  N_INDEX:
+    description: "Nth term for fibonacci sequence"
+    required: true
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
