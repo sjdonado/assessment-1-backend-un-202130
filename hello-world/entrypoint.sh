@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "hola $MY_NAME"
+
+echo "hola $INPUT_MY_NAME"

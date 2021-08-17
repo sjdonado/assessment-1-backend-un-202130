@@ -3,10 +3,10 @@ description: "Fibo series Action"
 author: "ronaldoc@uninorte.edu.co"
  
 inputs:
-  MY_NAME:
-    description: "show fibonacci"
+  MY_NAME: "Juan"
+    description: "Show fibonacci"
     required: true
-    default: "fibo series"
+    default: "Ronald"
  
 runs:
   using: "docker"
