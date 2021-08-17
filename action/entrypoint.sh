@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo "N_INDEX: $INPUT_N_INDEX"
+echo "N_INDEX: $INPUT_MY_NUM"
 cd /fibonacci
-python fibonacci.py $INPUT_N_INDEX
+python Fibonacci.py $INPUT_MY_NUM

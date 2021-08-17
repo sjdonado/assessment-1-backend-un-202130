@@ -4,9 +4,9 @@ author: "cgmoreno@uninorte.edu.co"
 
 inputs:
   MY_NUM:
-    description: "Who to greet"
+    description: "Programa pa encontrar los numeros de la serie de Fibonacci"
     required: true
-    default: "World"
+
 
 runs:
   using: "docker"
