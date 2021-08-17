@@ -1,6 +1,6 @@
-### Primer Parcial - DSLLO BACKEND
+# Primer Parcial - DSLLO BACKEND
 
 ## Estudiante:
 
-# -Nombre: Alejandro Elias Gonzalez Sagbini
-# -Codigo: 200123798
+### -Nombre: Alejandro Elias Gonzalez Sagbini
+### -Codigo: 200123798
