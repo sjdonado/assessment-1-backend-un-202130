@@ -1,1 +1,0 @@
-# My first Back-End Examn, creatin fibonacci script
