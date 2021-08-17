@@ -1,5 +1,7 @@
-# [Template] Hello World action
+# Assessment 1 - Ivan Esteban Perez
 
-Fork this project and modify the dir/files in order to complete your assignment.
+Codigo Estudiantil : 200127518
 
-Good luck!
+Fibonnaci Sequence
+
+This is a implementation of fibonacci using Python algorithm
