@@ -1,0 +1,12 @@
+name: "action"
+description: "fibonacci project"
+author: "rjbarrios@uninorte.edu.co"
+ 
+inputs:
+  N_INDEX:
+    description: "integer value"
+    required: true
+  
+runs:
+  using: "docker"
+  image: "Dockerfile"
