@@ -1,10 +1,10 @@
-name: "Hello World Action"
-description: "My first Github Action"
+name: "Serie de Fibonacci"
+description: "Programa pa encontrar los numeros de la serie de Fibonacci"
 author: "cgmoreno@uninorte.edu.co"
 
 inputs:
   MY_NUM:
-    description: "Programa pa encontrar los numeros de la serie de Fibonacci"
+    description: "Número de la serie de Fibonacci a encontrar"
     required: true
 
 
