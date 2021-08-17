@@ -3,7 +3,7 @@ description: "fibonacci project"
 author: "rjbarrios@uninorte.edu.co"
  
 inputs:
-  N_INDEX:
+  N_VALUE:
     description: "integer values"
     required: true
   
