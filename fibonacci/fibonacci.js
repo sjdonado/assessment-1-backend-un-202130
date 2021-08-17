@@ -1,3 +1,5 @@
+const n = parseInt(process.argv.slice(2)[0]);
+
 function fibonacci(num, memo) {
     memo = memo || {};
 
@@ -7,4 +9,4 @@ function fibonacci(num, memo) {
     return memo[num] = fibonacci(num - 1, memo) + fibonacci(num - 2, memo);
 }
 
-console.log(fibonacci(parseInt(process.argv.slice(2)[0])));
+console.log("Result for the " + n + "th fibonacci term: " + fibonacci(n));
