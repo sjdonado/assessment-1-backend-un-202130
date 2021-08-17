@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: ./hello-world
+      - uses: ./parcial_1
         with:
           MY_NAME: "Juan"
