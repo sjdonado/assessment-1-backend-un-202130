@@ -1,5 +1,4 @@
-# [Template] Hello World action
+# Parcial 1
 
-Fork this project and modify the dir/files in order to complete your assignment.
-
-Good luck!
+Moreno Vargas Giovanni Camilo
+200109748
