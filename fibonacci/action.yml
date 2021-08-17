@@ -1,0 +1,11 @@
+name: "fibonacci action"
+description: "Mi primera evaluación de Github actions"
+ 
+inputs:
+  N_INDEX:
+    description: "Numero N de fibonacci"
+    required: true
+ 
+runs:
+  using: "docker"
+  image: "Dockerfile"
