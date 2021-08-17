@@ -1,3 +1,2 @@
 #!/bin/bash
-
-echo "hola $MY_NAME"
+sudo chmod +x Fibonacci
