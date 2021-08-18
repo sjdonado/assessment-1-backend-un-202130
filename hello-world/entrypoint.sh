@@ -4,14 +4,14 @@
 # https://www.geeksforgeeks.org/fibonacci-series-bash/
 
 echo "Input: $INPUT_N_INDEX"
-N_Index = $INPUT_N_INDEX
+numero = $INPUT_N_INDEX
 
 #Primer numero de la serie de Fibonacci
 a=0
 #Segundo numero de la serie de Fibonacci
 b=1
 
-for (( i=0; i< N_Index; i++ ))
+for (( i=1; i<numero; i++ ))
 do
 	fn=$((a + b))
 	a=$b
