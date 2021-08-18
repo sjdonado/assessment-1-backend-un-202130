@@ -6,8 +6,9 @@ def fib(n):
     else:
         # fn = fn-1 + fn-2
         return fib(n-1) + fib(n-2)
-
-if len(sys.argv) == 3:
-  print(fib(sys.argv[1]))
+list = sys.argv
+if len(list) == 3:
+  print(fib(list[1]))
 else:
-  print(*sys.argv)
+  for i in range(len(list)):
+    print list[i]
