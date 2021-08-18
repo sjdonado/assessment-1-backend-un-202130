@@ -3,7 +3,7 @@ on: push
 
 jobs:
   build:
-    name: Run the Hello World action
+    name: Run the evaluacion action
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
