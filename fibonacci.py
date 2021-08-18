@@ -10,4 +10,4 @@ def fib(n):
 if len(sys.argv) == 3:
   print(fib(sys.argv[1]))
 else:
-  print("Cantidad de argumentos invalidos!")
+  print(*sys.argv)
