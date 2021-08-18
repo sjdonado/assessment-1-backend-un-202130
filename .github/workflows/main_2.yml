@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: ./evaluacion1
+      - uses: ./evaluacion_1
         with:
           N_FIND: 9
