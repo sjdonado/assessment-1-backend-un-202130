@@ -9,4 +9,4 @@ jobs:
       - uses: actions/checkout@v1
       - uses: ./hello-world
         with:
-          MY_NAME: "ronald"
+          N_INDEX: 3
