@@ -1,6 +1,6 @@
 # !/bin/bash
 
-N=$INPUT_N_INPUT
+N=9
 a=0
 b=1
  
