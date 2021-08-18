@@ -6,11 +6,7 @@ jobs:
     name: Correr la accion de fibonacci
     runs-on: ubuntu-latest
     steps:
-      - id: fibo
-      - uses: actions/checkout@v1
-      - uses: ./
-        with:
-          N_INPUT: 9
-      - name: Obtener el resultado
-        run: echo "EL RESULTADO ES ${{ steps.fibo.outputs }}"
-        
+        - uses: actions/checkout@v1
+        - uses: ./
+          with:
+            N_INPUT: 9
