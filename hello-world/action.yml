@@ -1,12 +1,12 @@
-name: "Hello World Action"
-description: "My first Github Action"
-author: "sjdonado@uninorte.edu.co"
+name: "A workflow for mi primer parcial Backend"
+description: "My primer Github Action"
+author: "dgmarquez@uninorte.edu.co"
 
 inputs:
-  MY_NAME:
-    description: "Who to greet"
+  N_INDEX:  
+    description: "Variable entrante al fibonacci"
     required: true
-    default: "World"
+    
 
 runs:
   using: "docker"
