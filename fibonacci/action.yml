@@ -1,0 +1,12 @@
+name: "Fibonacci Action"
+description: "Action that executes the fibonacci algorithm given input"
+author: "dmfigueroa@uninorte.edu.co"
+
+inputs:
+  N_INDEX:
+    description: "Input of the fibonacci algoithm"
+    required: true
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
