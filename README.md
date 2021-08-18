@@ -7,9 +7,9 @@
 # For the first case the input is 9, but it can be changed in the main.yml file
 
 # Running Github Action would show the following:
- Input: 9
+ Input: 12
  Output: 
- 1 1 2 3 5 8 13 21 34
+ 1 1 2 3 5 8 13 21 34 55 89 144
  
 # References:
 https://nitayneeman.com/posts/understanding-semantic-commit-messages-using-git-and-angular/
