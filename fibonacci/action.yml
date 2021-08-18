@@ -1,0 +1,12 @@
+name: "Parcial 1 Fibonacci Action"
+description: "Parcial 1 Github Action"
+author: "leiderp@uninorte.edu.co"
+
+inputs:
+  N_INDEX:
+    description: "Number for generate fibonacci Number"
+    required: true
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
