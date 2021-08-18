@@ -3,7 +3,7 @@ description: "Programa para sucecion de fibonacci"
 author: "elcontreras@uninorte.edu.co"
 
 inputs:
-  MY_NAME:
+  N_INDEX:
     description: "El algoritmo de Fibonacci"
     required: true
 
