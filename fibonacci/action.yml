@@ -11,4 +11,4 @@ runs:
   using: "docker"
   image: "Dockerfile"
   args:
-    - fibonacci/fibonacci.py ${{ inputs.N_INPUT }}
+    - fibonacci.py ${{ inputs.N_INPUT }}
