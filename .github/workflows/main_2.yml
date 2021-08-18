@@ -6,7 +6,7 @@ jobs:
     name: Run the Hello World action
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: ./hello-world
+      uses: actions/checkout@v1
+      uses: ./evaluacion1
         with:
-          MY_NAME: "Juan"
+          N_FIND: 9
