@@ -9,4 +9,4 @@ jobs:
       - uses: actions/checkout@v1
       - uses: ./evaluacion_1
         with:
-          N_FIND: 9
+          N_FIND: 12
