@@ -1,0 +1,12 @@
+name: "Assessment Action"
+description: "Assessment One Github Action"
+author: "jebarcasnegras@uninorte.edu.co"
+
+inputs:
+  N_INDEX:
+    description: "Fibonacci input"
+    required: true
+
+runs:
+  using: "docker"
+  image: "Dockerfile"

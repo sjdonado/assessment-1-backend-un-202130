@@ -1,0 +1,12 @@
+name: A workflow for The First Backend Web Applications Development Assessment 
+on: push
+
+jobs:
+  build:
+    name: Run the Assessment Action
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ./assessment-action
+        with:
+          N_INDEX: 9
