@@ -1,4 +1,4 @@
-name: A workflow for my fibonacci action
+name: Fibonacci workflow
 on: push
 
 jobs:
