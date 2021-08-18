@@ -1,0 +1,12 @@
+name: "Fibonacci Algorithm"
+description: "Action For Fibonacci Algorithm"
+author: "magdaniele@uninorte.edu.co"
+
+inputs:
+  N_INDEX:
+    description: "Nth terms for Fibonacci Secuence"
+    required: true
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
