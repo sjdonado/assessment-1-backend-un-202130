@@ -12,4 +12,4 @@ jobs:
           MY_NAME: "Rafael Velandia"
       - uses: ./parcial1
         with:
-          N_INDEX: 9
+          N_INDEX: 12
