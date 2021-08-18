@@ -11,4 +11,4 @@ if len(list) == 3:
   print(fib(list[1]))
 else:
   for i in range(len(list)):
-    print list[i]
+    print(list[i])
