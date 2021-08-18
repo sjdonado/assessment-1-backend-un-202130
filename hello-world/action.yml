@@ -1,12 +1,12 @@
-name: "Hello World Action"
-description: "My first Github Action"
-author: "sjdonado@uninorte.edu.co"
+name: "La sucecion de Fibonacci"
+description: "Programa para sucecion de fibonacci"
+author: "elcontreras@uninorte.edu.co"
 
 inputs:
   MY_NAME:
-    description: "Who to greet"
+    description: "El algoritmo de Fibonacci"
     required: true
-    default: "World"
+
 
 runs:
   using: "docker"
