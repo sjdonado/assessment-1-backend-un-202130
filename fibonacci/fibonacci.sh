@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/bin/bash
 
 N=9
 a=0
