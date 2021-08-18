@@ -2,7 +2,6 @@ inputs:
 	MY_NAME:
 		description: "Action fibonacci"
 		required: true
-		default: "World"
 	runs:
 		using: "docker"
 		image: "Dockerfile"
