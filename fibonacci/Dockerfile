@@ -8,6 +8,6 @@
 
 FROM python:3
 WORKDIR /usr/src/app
-COPY . .
+COPY fibonacci.py /fibonacci.py
 CMD ["fibonacci.py"]
 ENTRYPOINT ["python3"]
