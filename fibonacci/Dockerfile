@@ -9,5 +9,5 @@
 FROM python:3
 #WORKDIR /usr/src/app
 COPY fibonacci.py /fibonacci.py
-CMD ["fibonacci.py"]
-ENTRYPOINT ["python3"]
+#CMD ["fibonacci.py"]
+ENTRYPOINT ["python3 fibonacci.py"]
