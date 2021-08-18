@@ -6,6 +6,7 @@
 
 FROM python:3
 WORKDIR /usr/src/app
-ADD fibonacci.py /fibonacci.py
+# ADD fibonacci.py /fibonacci.py
+COPY . .
 ENTRYPOINT ["python3"]
 CMD ["fibonacci.py"]
