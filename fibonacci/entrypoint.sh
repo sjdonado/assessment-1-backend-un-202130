@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "Hello world $INPUT_N_INDEX"
+node /fibonacci.js "$INPUT_N_INDEX"
