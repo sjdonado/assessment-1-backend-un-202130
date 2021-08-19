@@ -9,4 +9,4 @@ jobs:
         - uses: actions/checkout@v1
         - uses: ./fibonacci
           with:
-            N_INPUT: 9
+            N_INPUT: 12
