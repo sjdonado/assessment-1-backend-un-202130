@@ -1,12 +1,12 @@
-name: A workflow for my Hello World action
+name: assignment
 on: push
 
 jobs:
   build:
-    name: Run the Hello World action
+    name: Run the exam action
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: ./hello-world
+      - uses: ./exam
         with:
-          MY_NAME: "Juan"
+          N_INDEX: "7"

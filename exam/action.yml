@@ -1,0 +1,12 @@
+name: "Assignment 1"
+description: "Complete Assignment"
+author: "jcarteaga@uninorte.edu.co"
+
+inputs:
+  N_INDEX:
+    description: "fibonacci sequence of size n"
+    required: true
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
